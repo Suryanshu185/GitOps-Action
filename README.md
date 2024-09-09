@@ -1,27 +1,3 @@
-
-
-**Prerequisites**  
-**JDK 11**  
-**Maven 3**  
-**MySQL 8**  
-**Technologies**  
-**Spring MVC**  
-**Spring Security**  
-**Spring Data JPA**  
-**Maven**  
-**JSP**  
-**MySQL**  
-**Database**  
-**Here,we used Mysql DB MSQL DB Installation Steps for Linux ubuntu 14.04:**
-
-**$ sudo apt-get update**  
-**$ sudo apt-get install mysql-server**  
-**Then look for the file :**
-
-**/src/main/resources/db\_backup.sql**  
-**db\_backup.sql file is a mysql dump file.we have to import this dump to mysql db server**  
-**mysql \-u \<user\_name\> \-p accounts \< db\_backup.sql**
-
 **Email: gupta.suryanshu185@gmail.com**
 
 # **GitOps**
@@ -829,6 +805,8 @@ Copy code
 *          values: appimage=${{ secrets.REGISTRY }}/${{ env.ECR\_REPOSITORY }},apptag=${{ github.run\_number }}  
 *          name: vprofile-stack   
 
+
+  
 
 ### **Key Concepts Learned:**
 
